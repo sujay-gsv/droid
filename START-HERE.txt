@@ -1,0 +1,26 @@
+DRIOD - QUICK START
+
+1. Extract the ZIP completely.
+2. Install Python 3.11 or 3.12 (64-bit), with Add to PATH selected.
+3. Double-click setup.bat and wait for installation to finish.
+4. Double-click start.bat.
+5. Open Settings / API key. Enter your OpenRouter key.
+6. Click Load models, choose a model, and Save settings.
+7. Type a request and click Send request.
+
+VOICE: Run setup_voice.bat, restart Driod, enable Speak replies,
+and switch Microphone ON. Say "Jarvis, open calculator."
+
+SCREEN CONTROL: Run setup_desktop.bat and restart.
+OCR additionally requires the Tesseract application.
+
+NO API KEY YET? Click Try demo store to open the included local demo.
+
+EXAMPLE REQUEST:
+Create an Amazon-style shopping website with search, categories,
+and a working cart. Open it in VS Code, check it for errors,
+fix them, and show the result. Make checkout a labelled demo.
+
+Read README.md for features, confirmations, privacy and limits.
+Run doctor.bat for diagnostics or test.bat for automated checks.
+Never share your API key in chat.

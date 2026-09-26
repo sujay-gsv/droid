@@ -1,0 +1,4 @@
+PyAutoGUI>=0.9.54,<1
+pytesseract>=0.3.13,<1
+screen-brightness-control>=0.24,<1
+Pillow>=10,<13

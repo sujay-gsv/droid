@@ -1,0 +1,28 @@
+# Local credentials and personal data
+.env
+.env.*
+!.env.example
+.driod/
+credentials.json
+secrets.json
+
+# Environments, dependencies, downloaded speech models
+.venv/
+venv/
+node_modules/
+voice-model/
+
+# Generated Python files, test caches and local output
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+reports/
+*.log
+
+# Local editor and operating system state
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
