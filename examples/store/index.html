@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Everyday Market · Driod demo</title><link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="announcement">A LOCAL DEMO BUILT FOR DRIOD · NO REAL ORDERS OR PAYMENTS</div>
+  <header><a class="brand" href="./">everyday<span>market.</span></a><span class="delivery">A little something<br><b>for your everyday</b></span><form id="search-form"><label class="sr-only" for="search">Search products</label><input id="search" placeholder="What are you looking for?"><button aria-label="Search">Search</button></form><button id="cart-open">Bag <span id="cart-count">0</span></button></header>
+  <nav aria-label="Categories"><button class="active" data-category="All">All finds</button><button data-category="Tech">Tech & audio</button><button data-category="Home">Home & living</button><button data-category="Outdoor">Out & about</button><span>Thoughtful things. Everyday prices.</span></nav>
+  <main>
+    <section class="hero"><div><span class="eyebrow">THE EVERYDAY EDIT / VOL. 01</span><h1>Small upgrades.<br>Better days.</h1><p>Good design shouldn't be saved for special occasions.<br>Find your next everyday favourite.</p><a href="#products">Explore the collection <span>↗</span></a></div><div class="hero-art" aria-hidden="true"><div class="halo"></div><span class="headphones">🎧</span><div class="hero-tag">SOUND GOOD.<br><b>FEEL GREAT.</b></div></div></section>
+    <section class="benefits"><span>✦ Curated for real life</span><span>↗ Discover something new</span><span>♡ Find your favourites</span><span>◎ A Driod sample project</span></section>
+    <section id="products"><div class="section-head"><div><span class="eyebrow">WORTH A CLOSER LOOK</span><h2>Your daily essentials</h2></div><span id="result-count"></span></div><div id="product-grid"></div><p id="empty" hidden>No products match your search. Try a different word.</p></section>
+  </main><footer>everyday market. <span>Demo storefront · Made to be changed with Driod</span></footer>
+  <dialog id="cart"><div class="cart-head"><h2>Your bag</h2><button id="cart-close" aria-label="Close bag">✕</button></div><div id="cart-items"></div><div class="total">Total <b id="cart-total">₹0</b></div><button id="checkout">Demo checkout</button><p id="checkout-note" role="status"></p></dialog>
+  <p id="toast" role="status" aria-live="polite"></p><script src="app.js"></script>
+</body></html>
